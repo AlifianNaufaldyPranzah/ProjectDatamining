@@ -8,7 +8,7 @@ st.set_page_config(
     page_icon="https://freepngimg.com/save/93231-toy-pubg-mobile-sticker-machine-battlegrounds-playerunknown/512x512",
 )
 
-kolom = st.columns((2, 0.48, 2.7))
+kolom = st.columns((1.7, 0.48, 2.7))
 home = kolom[1].button('Home')
 about = kolom[2].button('About')
 
