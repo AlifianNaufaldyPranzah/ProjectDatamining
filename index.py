@@ -10,7 +10,7 @@ st.set_page_config(
 
 kolom = st.columns((1.4, 0.48, 2.7))
 home = kolom[1].button('Home')
-about = kolom[2].button('About')
+about = kolom[2].button('Deskripsi')
 
 # home page
 if home==False and about==False or home==True and about==False:
@@ -122,6 +122,16 @@ if about==True and home==False:
     st.markdown("<b>-Polidipsia</b>, adalah kondisi dimana seseorang mengalami seringnya merasa haus berlebihan",unsafe_allow_html=True)
     st.markdown("<b>-Sudden Weight Loss</b>, adalah kondisi dimana seseorang mengalami penurunan berat badan secara drastis",unsafe_allow_html=True)
     st.markdown("<b>-Poligapia</b>, adalah kondisi dimana seseorang mengalami seringnya merasa lapar berlebihan",unsafe_allow_html=True)
+    st.markdown("<b>-Weakness</b>, adalah kondisi dimana seseorang mengalami kelemahan tubuh
+",unsafe_allow_html=True)
+    st.markdown("<b>-genital trush</b>, adalah kondisi dimana seseorang mengalami infeksi jamur",unsafe_allow_html=True)
+    st.markdown("<b>-itching</b>, adalah kondisi dimana seseorang mengalami gatal-gatal",unsafe_allow_html=True)
+    st.markdown("<b>-Iritability</b>, adalah kondisi dimana seseorang mengalami iritasi kulit",unsafe_allow_html=True)
+    st.markdown("<b>-delayed healing</b>, adalah kondisi dimana seseorang mengalami telat penanganan",unsafe_allow_html=True)
+    st.markdown("<b>-partial paresis</b>, adalah kondisi dimana seseorang mengalami lemah otot atau bisa juga lumpuh",unsafe_allow_html=True)
+    st.markdown("<b>-muscle stiffness</b>, adalah kondisi dimana seseorang mengalami otot yang kaku",unsafe_allow_html=True)
+    st.markdown("<b>-alopecia</b>, adalah kondisi dimana seseorang mengalami rontoknya rambut",unsafe_allow_html=True)
+    st.markdown("<b>-obesity</b>, adalah kondisi dimana seseorang mengalami obesitas",unsafe_allow_html=True)
 
 st.write('Another :')
 colum = st.columns((0.1,0.2,1))
